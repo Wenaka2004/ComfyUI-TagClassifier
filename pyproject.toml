@@ -1,0 +1,14 @@
+[project]
+name = "tagclassifier"
+description = "ComfyUI custom node，use Deepseek v3 to classify the input tags"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Wenaka2004/ComfyUI-TagClassifier"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TagClassifier"
+Icon = ""
