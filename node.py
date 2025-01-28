@@ -65,7 +65,7 @@ class LLMProcessingNode:
 
     def process(self, text, api_key):
         # 从文件中加载历史记录
-        prompt_history = load_prompt_history("custom_nodes\Comfyui-TagClassifier\prompt.json")
+        prompt_history = load_prompt_history("custom_nodes\ComfyUI-TagClassifier\prompt.json")
         
         # 调用DeepSeek API
         try:
